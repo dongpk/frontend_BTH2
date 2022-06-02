@@ -1,0 +1,139 @@
+:root
+{
+    --full-width: 1200px;
+    --small-width: 1000px
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+
+ /* div {
+    border:1px solid #000;
+    min-height: 50px;
+    margin:0px;
+}  */
+.dau
+{
+    width: var(--full-width);
+    margin: 0 auto;
+    overflow: auto;
+}
+.dau-logo
+{
+    float: left;
+    width: 50%;
+}
+.dau-menu
+{
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 4px;
+    
+}
+.dau-menu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    float: left;
+}
+li{
+    display: block; 
+    /* color: white;  */
+    text-align: center; 
+    padding: 16px; 
+    text-decoration: none;
+}
+ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+
+}
+.slide{
+    width: var(--full-width);
+    margin: 0 auto;
+    padding: 0 ;
+
+}
+.khung{
+    width: var(--small-width);
+    margin: 0 auto;
+    overflow: hidden;
+}   
+.khung-item{
+    float: left;
+    width: 25%;
+    position: relative;
+    bottom: 30px;
+    
+}
+.congty{
+    margin: 0 auto;
+    padding: 0;
+    width: var(--small-width);
+}
+.congty{
+    position: relative;
+    bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200px;
+    font-size: 30px;
+    
+}
+.show{
+
+    margin: 0 auto;
+    width: var(--small-width);
+}
+.show-item{
+    float: left;
+   
+    position: relative;
+    bottom: 30px;
+}
+.ketbai{
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: var(--full-width);
+    background-color: yellow;
+}
+.ketbai-item{
+    float: left;
+    height: 190px;
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    font-size: 14px;
+    width: 330px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.ten
+{
+    position: relative;
+    top: 220px;
+    left: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.ten1
+{
+    position: relative;
+    top: 180px;
+    left: 70px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+strong{
+    font-weight: bold;
+}
+
